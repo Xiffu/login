@@ -1,0 +1,126 @@
+body {
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    background-color: #2c1e0f;
+    color: #d4c5a2;
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/fondoLogin.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h2 {
+    text-align: center;
+    color: #a0522d;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #8B5E3C;
+}
+
+table tr:nth-child(even) {
+    background-color: #4b3621;
+}
+
+table td:first-child {
+    font-weight: bold;
+}
+
+table td:last-child {
+    color: #f0e6d2;
+}
+
+.navtop {
+    background-color: #9B3D2F;
+    padding: 10px 0;
+    border-bottom: 2px solid #6F4F28;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.navtop div {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.navtop h1 {
+    color: #f0e6d2;
+    font-size: 24px;
+    margin: 0;
+}
+
+.navtop a {
+    color: #f0e6d2;
+    margin-left: 20px;
+}
+
+.navtop a:hover {
+    color: #fff;
+}
+
+.content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(60, 45, 30, 0.85);
+    border-radius: 10px;
+    border: 2px solid #8B5E3C;
+    margin-top: 100px;
+}
+
+.content h2 {
+    color: #8B5E3C;
+    border-bottom: 1px solid #8B5E3C;
+    padding-bottom: 10px;
+}
+
+a {
+    color: #9B3D2F;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #C45E48;
+}
+
+.center-button {
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.center-button a {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    background-color: #8B5E3C;
+    color: #f0e6d2;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.center-button a:hover {
+    background-color: #6f4f28;
+}
